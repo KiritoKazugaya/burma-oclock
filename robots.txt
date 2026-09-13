@@ -1,0 +1,8 @@
+# This is a demo build, not the restaurant's live site.
+# It carries Burma O'Clock's real name, address and phone number, so it must not
+# be indexed — otherwise it competes with burmaoclock.com in search results and
+# sends real customers to a preview. Remove this file only when the site goes
+# live on the restaurant's own domain.
+
+User-agent: *
+Disallow: /
