@@ -1,0 +1,28 @@
+# Tooling / assistant artifacts — keep these out of the repo
+.claude/
+CLAUDE.md
+AGENTS.md
+.cursor/
+.aider*
+graphify-out/
+.graphify*
+
+# Vercel
+.vercel/
+
+# Dependencies
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+npm-debug.log*
