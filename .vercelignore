@@ -1,0 +1,24 @@
+# Vercel uses THIS file, not .gitignore, when deploying a local directory.
+# Anything listed here stays out of the public deployment.
+
+# Tooling / assistant artifacts
+.claude/
+CLAUDE.md
+graphify-out/
+.graphify*
+
+# Internal notes — belong in the repo, not on the public site
+HANDOFF.md
+
+# Original photographs kept for reference, not referenced by any page
+assets/img/place/*-original.webp
+
+# Repo / editor noise
+.git/
+.gitignore
+node_modules/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
